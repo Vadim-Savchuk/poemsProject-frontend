@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/poemsProject-frontend/static/css/main.13a2eedf.css",
-    "main.js": "/poemsProject-frontend/static/js/main.6580deec.js",
+    "main.js": "/poemsProject-frontend/static/js/main.5c61be80.js",
     "index.html": "/poemsProject-frontend/index.html",
     "main.13a2eedf.css.map": "/poemsProject-frontend/static/css/main.13a2eedf.css.map",
-    "main.6580deec.js.map": "/poemsProject-frontend/static/js/main.6580deec.js.map"
+    "main.5c61be80.js.map": "/poemsProject-frontend/static/js/main.5c61be80.js.map"
   },
   "entrypoints": [
     "static/css/main.13a2eedf.css",
-    "static/js/main.6580deec.js"
+    "static/js/main.5c61be80.js"
   ]
 }
