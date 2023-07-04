@@ -1,0 +1,58 @@
+.user {
+
+    .user_button--color {
+        font-size: 20px;
+        background-color: #12630b;
+    }
+
+    .user_auth {
+        position: relative;
+        z-index: 5;
+
+        .user_links {
+            width: 200px;
+            right: -250px;
+            transition: 0.2s;
+            overflow: hidden;
+            position: absolute;
+            border-radius: 25px 0px 0px 25px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+            li a,
+            li button {
+                width: 100%;
+                color: #fff;
+                display: block;
+                font-size: 20px;
+                text-align: center;
+                padding: 10px 20px;
+                background-color: #0b8a21;
+
+                &:hover {
+                    background-color: #34bc4a;
+                }
+            }
+
+            @media screen and (max-width: 590px) {
+                &.user_links {
+                    bottom: 0px;
+                    left: -800px;
+                    border-radius: 0px 25px 25px 0px;
+                }
+            }
+        }
+    }
+
+    &:hover .user_auth {
+        .user_links {
+            right: -20px;
+        }
+
+        @media screen and (max-width: 590px) {
+            .user_links {
+                left: -370px;
+                bottom: 0px;
+            }
+        }
+    }
+}

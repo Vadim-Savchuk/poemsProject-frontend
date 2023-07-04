@@ -1,0 +1,18 @@
+.messages-list {
+    gap: 10px;
+    right: 40px;
+    width: 100%;
+    bottom: 40px;
+    display: flex;
+    max-width: 300px;
+    position: absolute;
+    flex-direction: column;
+
+    li {
+        color: #fff;
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 25px;
+        background-color: #000000;
+    }
+}

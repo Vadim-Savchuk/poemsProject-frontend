@@ -1,0 +1,17 @@
+.not-page {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .error-message {
+        text-align: center;
+        padding: 20px 40px;
+        border-radius: 25px;
+        background-color: #fff;
+
+        div {
+            margin-top: 10px;
+        }
+    }
+}

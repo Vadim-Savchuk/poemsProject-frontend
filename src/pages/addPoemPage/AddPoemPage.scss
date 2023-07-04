@@ -1,0 +1,102 @@
+.add-poem-page {
+    gap: 2%;
+    color: #fff;
+    display: flex;
+
+    .title {
+        color: #000;
+        margin: 30px 0px;
+        text-align: center;
+    }
+
+    .add_form-offer {
+        flex-basis: 69%;
+        margin: 0 auto;
+
+        .add_form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                font-size: 21px;
+                padding: 5px 20px;
+                margin-bottom: 5px;
+                border-radius: 25px;
+                background-color: rgb(219, 175, 79);
+
+                &:not(:first-child) {
+                    margin-top: 5px;
+                }
+            }
+
+            input,
+            textarea {
+                font-size: 20px;
+                padding: 10px 20px;
+                border-radius: 25px;
+            }
+
+            textarea {
+                resize: none;
+                min-height: 300px;
+            }
+
+            button {
+                font-size: 20px;
+                margin-top: 5px;
+                transition: 0.2s;
+                margin-left: auto;
+                width: fit-content;
+                padding: 10px 20px;
+                background: #fff;
+                border-radius: 25px;
+                display: inline-block;
+
+                &:hover {
+                    color: #fff;
+                    background-color: rgb(15, 103, 66);
+                }
+            }
+        }
+    }
+
+    .add_settings-offer {
+        flex-basis: 29%;
+        overflow: hidden;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: #fff;
+    }
+
+    @media screen and (max-width: 992px) {
+        .add_form-offer {
+            flex-basis: 69%;
+        }
+
+        .add_settings-offer {
+            flex-basis: 39%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .add-poem-page {
+        gap: 20px;
+        flex-direction: column-reverse;
+
+        .add_form-offer {
+            .add_form {
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .add_form-offer,
+    .add_settings-offer {
+        width: 100%;
+    }
+
+
+}

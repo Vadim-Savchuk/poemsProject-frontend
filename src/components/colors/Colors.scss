@@ -1,0 +1,13 @@
+.colors {
+    gap: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+
+    .colors_button {
+        width: 60px;
+        height: 60px;
+        flex-basis: 33, 33%;
+        border-radius: 25px;
+    }
+}

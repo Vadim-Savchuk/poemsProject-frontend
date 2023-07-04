@@ -1,0 +1,17 @@
+.fonts {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .fonts_button {
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 25px;
+        background: transparent;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+            background-color: bisque;
+        }
+    }
+}
